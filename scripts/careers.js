@@ -57,7 +57,7 @@ $(document).ready(function() {
         }
         else {
             $('#inResume').css("border-top", "1px solid lightgrey");
-            $('#myModal-text span').text("," + $('#inFirstName')[0].value);
+            $('#myModal-text span').text(", " + $('#inFirstName')[0].value);
             $('#myModal').css("display", "flex");
         }
         return false;

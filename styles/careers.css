@@ -1,7 +1,4 @@
 /* General Styling */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
 .text-center {
     text-align: center;
@@ -10,7 +7,6 @@ body {
 .jumbotron {
     background-color: black;
     padding: 64px 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 section {
@@ -19,7 +15,6 @@ section {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .flex-wrapper {
@@ -32,6 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 #careers-jumbotron h1 {
     font-size: 3.5rem;
     font-weight: lighter;
+    font-family: 'furiosadrive';
 }
 
 #careers-jumbotron h1 span{
@@ -44,6 +40,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 50px;
     font-size: 1.25rem;
     font-weight: lighter;
+    font-family: 'furiosadrive';
 }
 
 
