@@ -1,4 +1,14 @@
 $(document).ready(function() {
+    $('#careers-accordion h3').hover(function() {
+        $(this).addClass('accordion-bg-color');
+    },
+    function(){
+        if ($(this).next('div')[0].style['display'] === 'block') {}
+        else {
+            $(this).removeClass('accordion-bg-color');
+        }
+    })
+
     $('#careers-accordion h3').click(function() {
         if ($(this).next('div')[0].style['display'] === 'block') {
             $(this).next('div').hide(400, 'swing');
@@ -20,7 +30,7 @@ $(document).ready(function() {
 
     $('.accordion-apply-btn').click(function(e) {
         // console.log(document.getElementById('application-form'));
-        document.getElementById('application-form').scrollIntoView();
+        document.getElementById('application-form').scrollIntoView({ behavior: 'smooth', block: 'center' });
         if (this === $('#applyHeadChef')[0]) {
             $("#position_dropdown>option:eq(0)").prop("selected", true);
         }
