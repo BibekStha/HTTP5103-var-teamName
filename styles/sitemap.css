@@ -16,19 +16,22 @@ h1 {
 
 h2 {
     margin: 20px 0 15px;
+    width: 100%;
+    text-align: center;
 }
 
 li {
     list-style: none;
 }
 
-li a {
+.grid-item a {
     text-decoration: none;
-    color: #0074D9;
+    color: #b81c1b;
 }
 
-li a:hover {
-    font-weight: 600;
+img {
+    width: 250px;
+    height: auto;
 }
 
 /* Display grid styling for the list */
@@ -41,7 +44,12 @@ li a:hover {
     text-align: center;
     padding: 20px 0;
     margin: 10px 10px;
-    border: 1px solid #ffffff;
+    border: 1px solid #000000;
+    background-color: white;
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    grid-row-gap: 20px;
 }
 
 .grid-focus {
