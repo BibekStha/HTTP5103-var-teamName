@@ -20,13 +20,23 @@ h2 {
     text-align: center;
 }
 
+#home-link {
+    width: 100%;
+    text-align: center;
+}
+
+#home-link a {
+    padding-bottom: 20px;
+    padding: 20px;
+}
+
 li {
     list-style: none;
 }
 
 .grid-item a {
     text-decoration: none;
-    color: #b81c1b;
+    color: white;
 }
 
 img {
@@ -45,7 +55,8 @@ img {
     padding: 20px 0;
     margin: 10px 10px;
     border: 1px solid #000000;
-    background-color: white;
+    /* background-color: rgba(255, 255, 255, .7); */
+    background-color: #76749B;
     display: grid;
     grid-template-rows: auto auto;
     justify-content: center;

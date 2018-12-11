@@ -27,7 +27,7 @@ $(document).ready(function() {
         else if(this === $('#applyAssCook')[0]){
             $("#position_dropdown>option:eq(1)").prop("selected", true);
         }
-        else if(this === $('#applyStoreManager')[0]){
+        else if(this === $('#applyFloorManager')[0]){
             $("#position_dropdown>option:eq(2)").prop("selected", true);
         }
         else if(this === $('#applyWaiter')[0]){
